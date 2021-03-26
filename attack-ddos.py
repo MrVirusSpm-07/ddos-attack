@@ -30,7 +30,7 @@ print ("\033[1;36mGithub \033[1;32m: \033[1;35mhttps://github.com/MrVirusSpm-07"
 print ("\033[1;36mWhasap \033[1;32m: \033[1;35m+6281574614665")
 
 time.sleep(1)
-ip = raw_input("1P Target : ")
+ip = raw_input("iP Target : ")
 port = input("Port       : ")
 
 os.system("clear")

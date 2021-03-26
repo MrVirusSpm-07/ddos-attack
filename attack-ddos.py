@@ -22,20 +22,20 @@ os.system("clear")
 time.sleep(1)
 os.system("figlet DDos Attack")
 print ("\033[1;36m=======================================")
-print
+print ("")
 time.sleep(1)
 print ("\033[1;36mAuthor \033[1;32m: \033[1;35mDicky Andre")
 print ("\033[1;36mYutube \033[1;32m: \033[1;35mMR VIRUS SPM")
 print ("\033[1;36mGithub \033[1;32m: \033[1;35mhttps://github.com/MrVirusSpm-07")
 print ("\033[1;36mWhasap \033[1;32m: \033[1;35m+6281574614665")
-print
+print ("")
 time.sleep(1)
 ip = raw_input("1P Target : ")
 port = input("Port       : ")
 
 os.system("clear")
 time.sleep(1)
-print
+print ("")
 os.system("figlet Attack ")
 time.sleep(1)
 print ("[menyerang......] 2%   ")
